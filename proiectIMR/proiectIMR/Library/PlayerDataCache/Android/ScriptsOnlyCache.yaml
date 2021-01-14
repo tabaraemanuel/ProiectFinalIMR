@@ -2,10 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AssetSwap
-    - DatabaseAccess
     - FaceController
     - HideGUI
-    - MainMenu
     - TakePic
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -21,8 +19,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -39,66 +35,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/MainMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11862}
-    - Class: 114
-      Script: {instanceID: 11864}
-    - Class: 114
-      Script: {instanceID: 11890}
-    - Class: 114
-      Script: {instanceID: 12120}
-    - Class: 114
-      Script: {instanceID: 12170}
-    - Class: 114
-      Script: {instanceID: 12188}
-    - Class: 114
-      Script: {instanceID: 12238}
-    - Class: 114
-      Script: {instanceID: 12768}
-    - Class: 114
-      Script: {instanceID: 14096}
-    - Class: 114
-      Script: {instanceID: 14620}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -125,102 +63,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12136}
     - Class: 114
-      Script: {instanceID: 12170}
+      Script: {instanceID: 12186}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 12860}
+      Script: {instanceID: 12792}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13570}
     - Class: 114
-      Script: {instanceID: 13956}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 14002}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14096}
+      Script: {instanceID: 14034}
     - Class: 114
-      Script: {instanceID: 14128}
+      Script: {instanceID: 14132}
     - Class: 114
-      Script: {instanceID: 14338}
+      Script: {instanceID: 14166}
     - Class: 114
-      Script: {instanceID: 14486}
+      Script: {instanceID: 14324}
     - Class: 114
-      Script: {instanceID: 14494}
+      Script: {instanceID: 14380}
     - Class: 114
-      Script: {instanceID: 14620}
+      Script: {instanceID: 14528}
     - Class: 114
-      Script: {instanceID: 21414}
+      Script: {instanceID: 14536}
     - Class: 114
-      Script: {instanceID: 56120}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Scenes/SignUp.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11862}
-    - Class: 114
-      Script: {instanceID: 11864}
-    - Class: 114
-      Script: {instanceID: 11890}
-    - Class: 114
-      Script: {instanceID: 12120}
-    - Class: 114
-      Script: {instanceID: 12170}
-    - Class: 114
-      Script: {instanceID: 12188}
-    - Class: 114
-      Script: {instanceID: 12238}
-    - Class: 114
-      Script: {instanceID: 12768}
-    - Class: 114
-      Script: {instanceID: 14096}
-    - Class: 114
-      Script: {instanceID: 14620}
+      Script: {instanceID: 14662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -486,6 +367,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: d7986480b839a94e8066e1ee8967fa18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HideGUI
   - hash:
       serializedVersion: 2
       Hash: e8733e39efa851172df1c9eaef062265
@@ -788,6 +675,12 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
+      Hash: 2f5b4854c7492b490f24a4f514760e8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FaceController
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -936,21 +829,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d7986480b839a94e8066e1ee8967fa18
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HideGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 2f5b4854c7492b490f24a4f514760e8d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FaceController
   platform: 13
   scenePathNames:
-  - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/SignUp.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/catalina/Downloads/wetransfer-b13072/proiectIMR/proiectIMR/build.apk
+  playerPath: C:/Users/Emanuel/Documents/GitHub/ProiectFinalIMR/proiectIMR/proiectIMR/lalbuild.apk

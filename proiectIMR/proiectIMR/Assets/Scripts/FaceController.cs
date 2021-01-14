@@ -21,18 +21,22 @@ public class FaceController : MonoBehaviour
 
     private void Awake()
     {
+        GameObject mesh = models[index];
+        Debug.Log("HERE " + models.Count);
         manager = GetComponent<ARFaceManager>();
         index = 0;
-        left.onClick.AddListener(SwapFaceLeft);
-        right.onClick.AddListener(SwapFaceRight);
+        left.onClick.AddListener(SwapFaceRight);
+        right.onClick.AddListener(SwapFaceLeft);
         for (int i = 0; i < models.Count; i++)
         {
             var model = models[i];
             var image = images[i];
             image.enabled = (i == index);
-            model.SetActive(i == index);
             if (i == index)
-                manager.facePrefab = models[i];
+            {
+                manager.facePrefab = mesh;
+            }
+
         }
     }
 
@@ -50,39 +54,42 @@ public class FaceController : MonoBehaviour
 
     void SwapFaceLeft()
     {
+        Debug.Log("index= " + index);       
         var current = models[index];
         var currentimage = images[index];
-        current.SetActive(false);
+        
         currentimage.enabled = false;
         index--;
         if (index < 0)
         {
-            index = 2;
+            index = models.Count-1;
         }
         var imagetotoggle = images[index];
         var transformToToggle = models[index];
         imagetotoggle.enabled = true;
-        transformToToggle.SetActive(true);
-        manager.facePrefab = transformToToggle;
+
+        GameObject mesh = models[index];    
+        manager.facePrefab = mesh;
+
     }
 
     void SwapFaceRight()
     {
         var current = models[index];
         var currentimage = images[index];
-        current.SetActive(false);
         currentimage.enabled = false;
         index++;
-        if (index > 2)
+        Debug.Log("index= " + index);
+        if (index >= models.Count)
         {
             index = 0;
         }
         var imagetotoggle = images[index];
         var transformToToggle = models[index];
-        transformToToggle.SetActive(true);
-        imagetotoggle.enabled = true;
-        manager.facePrefab = transformToToggle;
 
+        imagetotoggle.enabled = true;
+        GameObject mesh = models[index];
+        manager.facePrefab = mesh;
     }
 
 }
