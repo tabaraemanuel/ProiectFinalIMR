@@ -677,7 +677,7 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
-      Hash: 2f5b4854c7492b490f24a4f514760e8d
+      Hash: 25aa1dc30f9bc32d8af7e6eba3946220
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FaceController

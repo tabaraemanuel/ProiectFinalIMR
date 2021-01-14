@@ -7,6 +7,8 @@ using UnityEngine.XR.ARFoundation;
 [RequireComponent(typeof(ARFaceManager))]
 public class FaceController : MonoBehaviour
 {
+    [SerializeField]
+    ARSession session;
     private ARFaceManager manager;
     [SerializeField]
     private Button left;
@@ -71,6 +73,8 @@ public class FaceController : MonoBehaviour
         GameObject mesh = models[index];    
         manager.facePrefab = mesh;
 
+        session.Reset();
+
     }
 
     void SwapFaceRight()
@@ -90,6 +94,9 @@ public class FaceController : MonoBehaviour
         imagetotoggle.enabled = true;
         GameObject mesh = models[index];
         manager.facePrefab = mesh;
+
+        session.Reset();
+
     }
 
 }
