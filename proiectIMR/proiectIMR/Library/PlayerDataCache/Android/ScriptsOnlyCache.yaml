@@ -19,8 +19,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -65,45 +63,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 12024}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12240}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 12818}
+      Script: {instanceID: 12712}
     - Class: 114
-      Script: {instanceID: 12878}
+      Script: {instanceID: 12730}
     - Class: 114
-      Script: {instanceID: 12968}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 13522}
+      Script: {instanceID: 12882}
     - Class: 114
-      Script: {instanceID: 13646}
+      Script: {instanceID: 13568}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13746}
     - Class: 114
-      Script: {instanceID: 14060}
+      Script: {instanceID: 13986}
     - Class: 114
-      Script: {instanceID: 14104}
+      Script: {instanceID: 14032}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 14130}
     - Class: 114
-      Script: {instanceID: 14236}
+      Script: {instanceID: 14164}
     - Class: 114
-      Script: {instanceID: 14388}
+      Script: {instanceID: 14322}
     - Class: 114
-      Script: {instanceID: 14444}
+      Script: {instanceID: 14378}
     - Class: 114
-      Script: {instanceID: 14590}
+      Script: {instanceID: 14526}
     - Class: 114
-      Script: {instanceID: 14598}
+      Script: {instanceID: 14534}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 14660}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -123,6 +121,18 @@ ScriptsOnlyBuild:
     - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f7bb6096199e0cf058d5d69878184cf4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: f087c23fbfa15475a0d110af46fb0496
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -497,12 +507,6 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: f087c23fbfa15475a0d110af46fb0496
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -531,12 +535,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPointCloudParticleVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: f7bb6096199e0cf058d5d69878184cf4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: InputField
   - hash:
       serializedVersion: 2
       Hash: 908b3077da284d11de0450423ca1808e
